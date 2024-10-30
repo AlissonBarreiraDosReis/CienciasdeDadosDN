@@ -47,6 +47,10 @@ nav a:hover {
 #graficos-container {
   margin: 5rem;
 }
+span{
+  font-weight: bold;
+  color: var(--secundary-color);
+}
 footer {
   display: flex;
   align-items: center;
