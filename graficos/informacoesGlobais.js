@@ -10,7 +10,7 @@ async function vizualizarInformacoesGlobais() {
     const minutos = Math.round((dados.tempo_medio_dia_estudando - horas) * 60)
     const pessoasComEducacaoSuperior = (dados.total_pessoas_com_educacao_superior / 1e9)
     const percentual = ((pessoasComAcessoAEducacao/pessoasMundo)*100).toFixed(2)
-`const paragrafo = document.createElement('p')
+const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
     paragrafo.innerHTML = `Você sabia que o total de pessoas no mundo é de <span>${pessoasMundo}</span> bilhões de pessoas e que o  total de pessoas com acesso à educação é de <span>${pessoasComAcessoAEducacao}</span> bilhões? O tempo médio gasto por dia estudando é de <span> ${horas} horas</span> e <span>${minutos}minutos</span>  e o total de pessoas com educação superior é de <span>${pessoasC
     const container = document.getElementById('graficos-container')
